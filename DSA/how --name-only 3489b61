@@ -1,0 +1,48 @@
+[33m4a5922d[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{0}: commit: commit
+[33m3489b61[m HEAD@{1}: rebase (finish): returning to refs/heads/main
+[33m3489b61[m HEAD@{2}: commit: OOPS
+[33m40e2a33[m[33m ([m[1;31morigin/master[m[33m)[m HEAD@{3}: pull --rebase origin main (start): checkout 40e2a334e79f26524ce313dc91619b6f0c6c0d26
+[33md69aacb[m HEAD@{4}: commit: OOPS
+[33m31e9dcb[m HEAD@{5}: commit: BackTracking
+[33m030ebcb[m HEAD@{6}: commit: BackTracking
+[33m5e7e1e4[m HEAD@{7}: commit: Backtracking
+[33maba72ec[m HEAD@{8}: commit: Backtracking
+[33m025cd1f[m HEAD@{9}: commit: DSA
+[33mc227d1b[m HEAD@{10}: commit: recursion
+[33m10fb387[m HEAD@{11}: commit: recursion
+[33mcec4c53[m HEAD@{12}: commit: recursion
+[33m0afe781[m HEAD@{13}: commit: strings
+[33m071f2a8[m HEAD@{14}: commit: Strings
+[33m1785b90[m HEAD@{15}: commit: Strings
+[33m18d1ea3[m HEAD@{16}: commit: string
+[33m0ee1262[m HEAD@{17}: commit: string
+[33meff74a3[m HEAD@{18}: commit: recursion
+[33m2bc56e6[m HEAD@{19}: commit: 12/2/2024
+[33m4fd3566[m HEAD@{20}: commit: Strings
+[33md09b6c6[m HEAD@{21}: commit: recursion
+[33m57a4579[m HEAD@{22}: commit: recursion
+[33me710e09[m HEAD@{23}: commit: recursion
+[33m1fc6b5a[m HEAD@{24}: commit: recursion
+[33m2db8217[m HEAD@{25}: commit: recursion
+[33m16a7e37[m HEAD@{26}: commit: recursion
+[33m3a856ba[m HEAD@{27}: commit: recursion
+[33m17a180e[m HEAD@{28}: commit: recursion
+[33m2e72072[m HEAD@{29}: pull origin main: Merge made by the 'ort' strategy.
+[33m329a946[m HEAD@{30}: reset: moving to HEAD
+[33m329a946[m HEAD@{31}: commit: recusion
+[33m6342f76[m HEAD@{32}: commit: recursion
+[33mc0ee4a3[m HEAD@{33}: commit: recursion
+[33m766d97f[m HEAD@{34}: commit: recursion problems
+[33m8aefd16[m HEAD@{35}: pull --rebase origin main (finish): returning to refs/heads/main
+[33m8aefd16[m HEAD@{36}: pull --rebase origin main (pick): recursion
+[33m6edcff2[m HEAD@{37}: pull --rebase origin main (start): checkout 6edcff26532c4c930c7ed615ca85cf299f7f55eb
+[33mee06f6c[m HEAD@{38}: commit: recursion
+[33m035fa2a[m HEAD@{39}: commit: modified
+[33m7f4316c[m HEAD@{40}: commit: added pattern8
+[33mcecc600[m HEAD@{41}: commit: LeetCode Problem
+[33ma34a4cf[m HEAD@{42}: commit: Cyclic Sort
+[33mbbaca75[m HEAD@{43}: commit: Selection Sort
+[33m43fecf9[m HEAD@{44}: commit: Bubble Sort Code
+[33mdec8ff0[m HEAD@{45}: commit: Bubble Sort Added
+[33md8902bb[m HEAD@{46}: commit: Files are added
+[33md1bc3ac[m HEAD@{47}: clone: from https://github.com/Vishwathma2004/DSA_JAVA.git
