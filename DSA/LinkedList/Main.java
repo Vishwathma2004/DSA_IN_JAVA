@@ -19,5 +19,7 @@ public class Main {
         list.displayList();
         list.find(5);
         list.displayList();
+        list.insertRec(5, 5);
+        list.displayList();
     }
 }
