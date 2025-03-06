@@ -1,5 +1,8 @@
 package StackAndQueues;
 
+import java.util.Deque;
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Stack;
 
 public class InBuildExamples {
@@ -14,8 +17,27 @@ public class InBuildExamples {
         stack.push(7);
         stack.push(34);
         stack.push(50);
+        System.out.println("This is a Stack DataStructure");
+        System.out.println("This is Last In Last Out(LIFO)");
         System.out.println(stack.peek());
         System.out.println(stack.pop());
         System.out.println(stack.pop()); 
+        Queue<Integer> queue = new LinkedList<>();
+        queue.add(30);
+        queue.add(40);
+        queue.add(50);
+        queue.add(60);
+        queue.add(70);
+        queue.add(80);
+        System.out.println("This is a Queue Linked List");
+        System.out.println("This is First in First Out(FIFO)");
+        System.out.println(queue.peek());
+        System.out.println(queue.remove());
+        System.out.println(queue.remove());
+        System.out.println("This is a Double Ended Queue");
+        Deque<Integer> deque = new LinkedList<>();
+        deque.add(5);
+        deque.add(6);
+        System.out.println(deque.remove());
     }
 }
