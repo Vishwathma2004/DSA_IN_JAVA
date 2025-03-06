@@ -21,7 +21,7 @@ public class CustomStack {
     }
     public int pop() throws StackException{
         if(isEmpty()){
-            throw new StackException("Cannot pop from an empty stack!!!") 
+            throw new StackException("Cannot pop from an empty stack!!!");
         }
         int removed = data[ptr];
         ptr--;
@@ -29,19 +29,29 @@ public class CustomStack {
         //or
         //return data[ptr--];
     }
-    public int peek() throws StackException{
-        throw new StackException("Cannot pop from an empty stack!!!") 
+    public int peek() throws StackException {
+        if (isEmpty()) {
+            throw new StackException("Cannot peek from an empty stack!!!");
+        }
         return data[ptr];
     }
+    
     private boolean isFull(){
         return ptr == data.length-1;
     }
     private boolean isEmpty(){
         return ptr == -1;
     }
-    public static void main(String[] args) {
+    public static void main(String[] args) throws StackException{
         CustomStack stack = new CustomStack();
-        
+        stack.push(1);
+        stack.push(2);
+        stack.push(3);
+        stack.push(4);
+        stack.push(5);
+        System.out.println(stack.peek());
+        System.out.println(stack.pop());
+        System.out.println(stack.pop()); 
     }
 
 }
