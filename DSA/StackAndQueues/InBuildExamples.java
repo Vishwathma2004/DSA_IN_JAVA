@@ -1,5 +1,6 @@
 package StackAndQueues;
 
+import java.util.ArrayDeque;
 import java.util.Deque;
 import java.util.LinkedList;
 import java.util.Queue;
@@ -34,8 +35,11 @@ public class InBuildExamples {
         System.out.println(queue.peek());
         System.out.println(queue.remove());
         System.out.println(queue.remove());
-        System.out.println("This is a Double Ended Queue");
-        Deque<Integer> deque = new LinkedList<>();
+
+        
+        System.out.println("\nThis is a Double Ended Queue");
+        System.out.println("Deque will be in ArrayDeque Class");
+        Deque<Integer> deque = new ArrayDeque<>(); 
         deque.add(5);
         deque.add(6);
         System.out.println(deque.remove());
