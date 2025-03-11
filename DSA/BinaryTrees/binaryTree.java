@@ -75,8 +75,6 @@ public class binaryTree {
         } else {
             System.out.println(node.value); // Root node
         }
-    
-        // Finally, print the right subtree
         prettyDisplay(node.right, level + 1);
     }
     
