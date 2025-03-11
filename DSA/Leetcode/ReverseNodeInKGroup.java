@@ -7,7 +7,7 @@
 //k is a positive integer and is less than or equal to the length of the linked list. If the number of nodes is not a multiple of k then left-out nodes, in the end, should remain as it is.
 
 //You may not alter the values in the list's nodes, only nodes themselves may be changed.
-
+package Leetcode;
 import java.util.Scanner;
 
 class ListNode {

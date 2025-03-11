@@ -8,7 +8,7 @@
 //Output: 13
 //Explanation: You can exchange 3 empty bottles to get 1 full water bottle.
 //Number of water bottles you can drink: 9 + 3 + 1 = 13
-
+package Leetcode;
 import java.util.Scanner;
 
 public class Water_Bottle {
@@ -19,7 +19,8 @@ public class Water_Bottle {
         int numBottles = sc.nextInt();
         System.out.println("Enter the number of bottles for Exchange");
         int numExchange = sc.nextInt();
-       System.out.println(numWaterBottles(numBottles, numExchange));
+        System.out.println(numWaterBottles(numBottles, numExchange));
+        sc.close();
     }
     static int numWaterBottles(int numBottles, int numExchange) {
         int ans = numBottles;
