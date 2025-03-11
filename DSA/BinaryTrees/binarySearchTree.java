@@ -31,11 +31,12 @@ public class binarySearchTree {
     public void display(){
         display(root,"Root node: ");
     }
-    public void display(Node node,String details){
+    private void display(Node node,String details){
         if(node==null){
             return;
         }
         System.out.println(details+node.getValue());
+        display(node.left,"Left child of "+node.getValue()+" : ");
+        display(node.right,"Right child of "+node.getValue()+" : ");
     }
-
 }
