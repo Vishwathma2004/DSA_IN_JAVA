@@ -28,5 +28,14 @@ public class binarySearchTree {
     public boolean isEmpty(){
         return root==null;
     }
+    public void display(){
+        display(root,"Root node: ");
+    }
+    public void display(Node node,String details){
+        if(node==null){
+            return;
+        }
+        System.out.println(details+node.getValue());
+    }
 
 }
