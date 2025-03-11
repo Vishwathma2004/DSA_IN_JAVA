@@ -32,7 +32,6 @@ public class binaryTree {
             node.left = new Node(value);
             populate(sc, node.left);
         }
-
         System.out.println("Do you want to enter right of " + node.value + "? (true/false)");
         boolean right = sc.nextBoolean();
         if (right) {
