@@ -67,7 +67,7 @@ Master the four pillars of OOP: **Abstraction, Encapsulation, Inheritance, and P
 ## 📌 How to Use
 1. Clone this repository:
    ```sh
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/Vishwathma2004/your-repo.git
    ```
 2. Navigate to the desired section and start exploring.
 3. Run Java files using:
