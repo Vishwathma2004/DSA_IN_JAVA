@@ -1,7 +1,4 @@
 package BinaryTrees;
-
-import java.util.Scanner;
-
 public class binarySearchTree {
     public class Node{
         int value;
