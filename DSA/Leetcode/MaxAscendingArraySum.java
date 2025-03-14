@@ -26,6 +26,7 @@ public class MaxAscendingArraySum {
         }
         System.out.println("Maximum sum is Ascending array is");
         System.out.println(max(arr));
+        sc.close();
 
     }
     public static int max(int[] arr){

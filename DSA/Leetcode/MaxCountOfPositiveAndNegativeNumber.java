@@ -34,5 +34,6 @@ public class MaxCountOfPositiveAndNegativeNumber {
             arr[i] = sc.nextInt();
         }
         System.out.println("The maximum between the number of positive integers and the number of negative integers is "+maxCount(arr));
+        sc.close();
     }
 }

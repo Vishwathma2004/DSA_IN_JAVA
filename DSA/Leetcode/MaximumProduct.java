@@ -19,6 +19,7 @@ public class MaximumProduct {
         }
         System.out.println("Product of two max elements is: ");
         System.out.println(maxProduct(arr));
+        sc.close();
 
     }
     public static  int maxProduct(int[] arr){
