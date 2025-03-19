@@ -1,7 +1,9 @@
 package FileHandling;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
@@ -52,6 +54,17 @@ public class Main {
         }
         catch(IOException e){
             System.out.println(e.getMessage());
+        }
+        try(FileWriter fw = new FileWriter("note.txt",true)){
+            fw.write("I'm abc??");
+        }catch(Exception e){
+            e.getMessage();
+        }
+        try(BufferedWriter bw= new BufferedWriter(new FileWriter("note.txt"))){
+            bw.write("Jai shree ram");
+        }
+        catch(Exception e){
+           System.out.println(e.getMessage());
         }
     }
 }
