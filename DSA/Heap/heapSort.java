@@ -68,7 +68,7 @@ public class heapSort<T extends Comparable<T>> {
         }
         return data;
     }
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         heapSort<Integer> heap = new heapSort<>();
         heap.insert(34);
         heap.insert(33);
@@ -76,6 +76,8 @@ public class heapSort<T extends Comparable<T>> {
         heap.insert(66);
         heap.insert(75);
         heap.insert(54);
-        System.out.println(heap.remove());
+        ArrayList list = heap.heapsort();
+        System.out.println(list);
+        
     }
 }
