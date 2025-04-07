@@ -36,7 +36,7 @@ public class HashMapFinal<K, V> {
 
     public V get(K key) {
         int hash = (key.hashCode() & Integer.MAX_VALUE) % list.size();
-        LinkedList<Enticd ty> entities = list.get(hash);
+        LinkedList<Enti cd ty> entities = list.get(hash);
 
         for (Entity entity : entities) {
             if (entity.key.equals(key)) {
