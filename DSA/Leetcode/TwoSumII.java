@@ -9,7 +9,7 @@ package Leetcode;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class TwoSum {
+public class TwoSumII {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number of element in the array");
