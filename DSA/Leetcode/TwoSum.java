@@ -23,6 +23,7 @@ public class TwoSum {
         int target = sc.nextInt();
         System.out.println("The index is");
         System.out.println(Arrays.toString(sumOfTwo(arr, target)));
+        sc.close();
 
     }
     public static int[] sumOfTwo(int[] arr,int target){
