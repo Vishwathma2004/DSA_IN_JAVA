@@ -25,3 +25,8 @@ public class PreOrderTraversal_i {
     public List<Integer> preOrderTraversal(Node root){
         
     }
+    @Override
+    public String toString() {
+        return "PreOrderTraversal_i []";
+    }
+}
