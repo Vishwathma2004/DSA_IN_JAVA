@@ -1,4 +1,4 @@
-package DSA.Pattern;
+package Pattern;
 /*
  * * * * *
  * * * * * 

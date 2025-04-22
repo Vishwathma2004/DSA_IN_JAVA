@@ -1,4 +1,4 @@
-package DSA.Pattern;
+package Pattern;
 
 public class pattern2 {
     public static void main(String[] args) {
