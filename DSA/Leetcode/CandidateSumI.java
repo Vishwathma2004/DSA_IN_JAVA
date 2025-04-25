@@ -26,6 +26,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+import Solution;
+
 public class CandidateSumI {
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
         if(candidates == null){

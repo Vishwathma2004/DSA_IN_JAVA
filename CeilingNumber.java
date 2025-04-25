@@ -7,6 +7,7 @@ public class CeilingNumber {
         int target = 22;
         int ans = Ceilingnumber(arr, target);
         System.out.println(ans);  // Output the index of the ceiling number
+        sc.close();
     }
 
     static int Ceilingnumber(int[] array, int target){

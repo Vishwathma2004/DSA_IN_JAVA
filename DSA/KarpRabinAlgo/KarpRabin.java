@@ -1,3 +1,5 @@
+package KarpRabinAlgo;
+
 public class KarpRabin {
     private static final int PRIME = 101;
 
