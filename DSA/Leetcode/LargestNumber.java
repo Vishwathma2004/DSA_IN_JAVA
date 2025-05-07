@@ -5,7 +5,7 @@
 
 //Since the result may be very large, so you need to return a string instead of an integer.
 
-package Leetcode;
+
 
 import java.util.Arrays;
 import java.util.Scanner;

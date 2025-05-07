@@ -14,7 +14,7 @@ Input: nums = [1,2,3,4,2,3,3,5,7]
 
 Output: 2
  */
-package Leetcode;
+
 
 import java.util.Scanner;
 

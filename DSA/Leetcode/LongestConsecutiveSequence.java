@@ -5,7 +5,7 @@
 
 //You must write an algorithm that runs in O(n) time.
 
-package Leetcode;
+
 
 import java.util.Arrays;
 import java.util.Scanner;

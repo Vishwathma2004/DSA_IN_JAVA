@@ -4,7 +4,7 @@
 
 //Note that it is the kth largest element in the sorted order, not the kth distinct element.
 
-package Leetcode;
+
 
 import java.util.PriorityQueue;
 import java.util.Scanner;

@@ -4,7 +4,7 @@
 
 //A word is a maximal substring consisting of non-space characters only.
 
-package Leetcode;
+
 
 import java.util.Scanner;
 

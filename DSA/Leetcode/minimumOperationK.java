@@ -26,7 +26,7 @@ Explanation:
 
 The operations can be performed in order using valid integers 4 and then 2.
  */
-package Leetcode;
+
 
 import java.util.HashSet;
 import java.util.Set;

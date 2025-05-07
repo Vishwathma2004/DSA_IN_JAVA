@@ -6,7 +6,7 @@ Given the root of a binary search tree, and an integer k, return the kth smalles
 the nodes in the tree.
  */
 
-package Leetcode;
+
 import java.util.PriorityQueue;
 
 public class kthSmallestNumber {

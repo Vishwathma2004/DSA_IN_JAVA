@@ -20,7 +20,7 @@ Explanation:
 These are the only two combinations.
  */
 
-package Leetcode;
+
 
 import java.util.ArrayList;
 import java.util.List;

@@ -8,7 +8,7 @@ You may assume that each input would have exactly one solution, and you may not 
 You can return the answer in any order.
  */
 
-package Leetcode;
+
 
 public class TwoSumI {
     public static int[] twoSum(int[] nums,int target){

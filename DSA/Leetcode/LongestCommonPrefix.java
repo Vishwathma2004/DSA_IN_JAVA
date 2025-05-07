@@ -5,7 +5,7 @@
 //If there is no common prefix, return an empty string "".
 
 
-package Leetcode;
+
 
 import java.util.Arrays;
 import java.util.Scanner;

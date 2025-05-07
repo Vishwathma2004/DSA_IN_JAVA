@@ -15,7 +15,7 @@ Output: false
 Explanation: "a" does not match the entire string "aa".
  */
 
-package Leetcode;
+
 
 import java.util.Scanner;
 

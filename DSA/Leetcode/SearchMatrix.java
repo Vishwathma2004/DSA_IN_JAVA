@@ -9,7 +9,7 @@
 
 //You must write a solution in O(log(m * n)) time complexity.
 
-package Leetcode;
+
 
 import java.util.Scanner;
 

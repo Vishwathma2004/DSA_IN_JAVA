@@ -5,7 +5,7 @@
 
 //An integer n is a power of three, if there exists an integer x such that n == 3x.
 
-package Leetcode;
+
 import java.util.Scanner;
 
 public class isPowerofThree {

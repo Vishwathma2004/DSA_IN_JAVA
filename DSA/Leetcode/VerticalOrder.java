@@ -14,7 +14,7 @@ The vertical order traversal of a binary tree is a list of top-to-bottom orderin
 Return the vertical order traversal of the binary tree.
  */
 
-package Leetcode;
+
 
 import java.util.*;
 

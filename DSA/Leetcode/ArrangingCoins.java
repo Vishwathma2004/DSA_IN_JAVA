@@ -6,7 +6,7 @@
 
 //Given the integer n, return the number of complete rows of the staircase you will build.
 
-package Leetcode;
+
 
 import java.util.Scanner;
 

@@ -12,7 +12,7 @@
 //int getMin() retrieves the minimum element in the stack.
 //You must implement a solution with O(1) time complexity for each function.
 
-package Leetcode;
+
 import java.util.Scanner;
 import java.util.Stack;
 

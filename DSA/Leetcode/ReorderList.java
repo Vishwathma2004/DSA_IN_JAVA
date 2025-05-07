@@ -3,7 +3,7 @@
 
 //143. Reorder List
 
-package Leetcode;
+
 import java.util.Scanner;
 
 class ListNode {

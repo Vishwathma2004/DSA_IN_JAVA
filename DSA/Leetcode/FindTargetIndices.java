@@ -7,7 +7,7 @@
 //Return a list of the target indices of nums after sorting nums in non-decreasing order. If there are no target indices, return an empty list.
 //The returned list must be sorted in increasing order.
 
-package Leetcode;
+
 
 import java.util.ArrayList;
 import java.util.List;

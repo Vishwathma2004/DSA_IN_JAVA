@@ -24,7 +24,7 @@ Input: stones = [0,1,2,3,4,8,9,11]
 Output: false
 Explanation: There is no way to jump to the last stone as the gap between the 5th and 6th stone is too large.
  */
-package Leetcode;
+
 public class FrogJump {
     Boolean[][] dp;
 

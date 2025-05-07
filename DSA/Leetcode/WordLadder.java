@@ -17,7 +17,7 @@ Output: 5
 Explanation: One shortest transformation sequence is "hit" -> "hot" -> "dot" -> "dog" -> cog", which is 5 words long.
  */
 
-package Leetcode;
+
 import java.util.*;
 
 class WordLadder {

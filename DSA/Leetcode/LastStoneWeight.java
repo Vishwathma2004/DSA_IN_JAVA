@@ -10,7 +10,7 @@
 
 //Return the weight of the last remaining stone. If there are no stones left, return 0.
 
-package Leetcode;
+
 
 import java.util.Arrays;
 import java.util.Scanner;

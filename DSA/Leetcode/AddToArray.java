@@ -5,7 +5,7 @@
 //Given num, the array-form of an integer, and an integer k, return the array-form of the integer num + k.
 
 
-package Leetcode;
+
 
 import java.util.ArrayList;
 import java.util.Collections;

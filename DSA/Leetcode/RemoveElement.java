@@ -6,7 +6,7 @@
 //Change the array nums such that the first k elements of nums contain the elements which are not equal to val. The remaining elements of nums are not important as well as the size of nums.
 //Return k.
 
-package Leetcode;
+
 
 import java.util.Scanner;
 

@@ -6,7 +6,7 @@
 //Only include the sum of all the elements on the primary diagonal and all the elements on the secondary diagonal that are not part of 
 //the primary diagonal.
 
-package Leetcode;
+
 
 import java.util.Scanner;
 

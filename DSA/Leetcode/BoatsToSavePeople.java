@@ -4,7 +4,7 @@
 
 //Return the minimum number of boats to carry every given person.
 
-package Leetcode;
+
 
 import java.util.Arrays;
 import java.util.Scanner;

@@ -10,7 +10,7 @@ Output: 1
 Explanation: 7 divides itself, hence the answer is 1.
 
  */
-package Leetcode;
+
 import java.util.Scanner;
 
 public class CountTheDigitsThatDivideANumber {

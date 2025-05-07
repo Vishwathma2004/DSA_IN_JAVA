@@ -7,7 +7,7 @@
 
 //You must solve the problem without modifying the array nums and using only constant extra space.
 
-package Leetcode;
+
 
 import java.util.Scanner;
 

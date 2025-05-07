@@ -10,7 +10,7 @@
 // Output: 65
 // Explanation: [5,10,50] is the ascending subarray with the maximum sum of 65.
 
-package Leetcode;
+
 
 import java.util.Scanner;
 

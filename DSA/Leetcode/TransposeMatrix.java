@@ -7,7 +7,7 @@
 
 
 
-package Leetcode;
+
 
 import java.util.Scanner;
 
