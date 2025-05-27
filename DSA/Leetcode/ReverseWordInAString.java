@@ -8,6 +8,7 @@
 
 //Note that s may contain leading or trailing spaces or multiple spaces between two words. The returned string should only have a single space separating the words. Do not include any extra spaces.
 
+package Leetcode;
 
 
 import java.util.Scanner;

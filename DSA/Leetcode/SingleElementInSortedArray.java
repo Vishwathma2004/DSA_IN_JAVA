@@ -7,6 +7,7 @@
 //Your solution must run in O(log n) time and O(1) space.
 
 
+package Leetcode;
 
 import java.util.Scanner;
 
