@@ -7,7 +7,7 @@
 //Return k.
 
 
-package Leetcode;
+//package Leetcode;
 
 import java.util.Scanner;
 

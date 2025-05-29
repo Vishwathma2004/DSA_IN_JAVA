@@ -11,7 +11,7 @@ The element 1 occurs at the indices 0 and 3.
  */
 
 
-package Leetcode;
+//package Leetcode;
 import java.util.HashSet;
 import java.util.Scanner;
 
