@@ -15,6 +15,7 @@ Example 1:
 Input: nums = [1,2,-1,-1,-1]
 Output: [2,1,-1]
 
+
 Explanation:
 Start with seen = [] and ans = [].
 Process nums[0]: The first element in nums is 1. We prepend it to the front of seen. Now, seen == [1].
