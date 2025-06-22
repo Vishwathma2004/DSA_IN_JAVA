@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.*;
 import java.util.Scanner;
 public class reverseArray {
     static void reverse(int[] arr){
@@ -46,6 +47,12 @@ public class reverseArray {
         arr[r] = temp;
         recursionReverse(arr,l+1,r-1);
     }
+    //Using in-built method
+    static void inBuiltReverse(List<Integer> arr){
+        Collections.reverse(arr);
+    }
+
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number of elements: ");
