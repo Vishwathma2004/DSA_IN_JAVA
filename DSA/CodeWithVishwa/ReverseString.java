@@ -8,6 +8,39 @@ public class ReverseString {
         }
         return result.toString();
     }
+    //using two pointer 
+    //Time Complexity - O(N) 
+    //Space Complexity - O(1) 
+    static String twoPointer(String s){
+        int left = 0,right = s.length()-1;
+        StringBuilder res = new StringBuilder(s);
+        while(left<right){
+            char temp = s.charAt(left);
+            res.setCharAt(left,res.charAt(right));
+            res.setCharAt(right,temp);
+            left++;
+            right--;
+        }
+    }
+
+    //using recursion
+    //Time Complexity - O(N) 
+    //Space Complexity - O(N) 
+    static void recursionReverse(char[] s,int left,int right){
+        if(left>=right){
+            return;
+        }
+        char temp = s[l];
+        s[l] = s[r];
+        s[r] = temp;
+        recusrionReverse(s,l+1,r-1);
+
+    }
+    static String reverseRecursion(String s){
+        char[] arr = s.toCharArray();
+        recursionReverse(arr,0,arr.length-1);
+        return new String(arr);
+    }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the string:");
