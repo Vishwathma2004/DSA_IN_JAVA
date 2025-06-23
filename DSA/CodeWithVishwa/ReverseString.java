@@ -41,6 +41,21 @@ public class ReverseString {
         recursionReverse(arr,0,arr.length-1);
         return new String(arr);
     }
+
+    //Using Stack
+    //Time Complexity : O(N)
+    //space Complexity : O(N)
+    static String stackReverse(String s){
+        Stack<Character> st = new Stack<>();
+        for(int i=0;i<s.length;i++){
+            st.push(s.charAt(i));
+        }
+        StringBuilder res = new StringBuilder(s);
+        for(int i=0;i<s.length();i++){
+            res.append(st.pop());
+        }
+        return res.toString();
+    }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the string:");
