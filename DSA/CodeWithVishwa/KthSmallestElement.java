@@ -1,5 +1,5 @@
 public class KthSmallestElement {
-    static int partition(int[] arr,int l,int r){
+    static void partition(int[] arr,int l,int r){
         int x = arr[r];
         int i = l;
         for(int j=l;j<=r-1;j++){

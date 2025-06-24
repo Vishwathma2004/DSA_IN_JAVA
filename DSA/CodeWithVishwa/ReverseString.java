@@ -1,4 +1,3 @@
-import java.lang.*;
 import java.util.*;
 public class ReverseString {
     static String reversal(String s){
@@ -21,19 +20,20 @@ public class ReverseString {
             left++;
             right--;
         }
+        return res.toString();
     }
 
     //using recursion
     //Time Complexity - O(N) 
     //Space Complexity - O(N) 
-    static void recursionReverse(char[] s,int left,int right){
-        if(left>=right){
+    static void recursionReverse(char[] s,int l,int r){
+        if(l>=r){
             return;
         }
         char temp = s[l];
         s[l] = s[r];
         s[r] = temp;
-        recusrionReverse(s,l+1,r-1);
+        recursionReverse(s,l+1,r-1);
 
     }
     static String reverseRecursion(String s){
@@ -47,7 +47,7 @@ public class ReverseString {
     //space Complexity : O(N)
     static String stackReverse(String s){
         Stack<Character> st = new Stack<>();
-        for(int i=0;i<s.length;i++){
+        for(int i=0;i<s.length();i++){
             st.push(s.charAt(i));
         }
         StringBuilder res = new StringBuilder(s);
