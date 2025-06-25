@@ -4,7 +4,7 @@ class MinMax {
     int min;
     int max;
 } 
-public class TorunamentMethod {
+public class TournamentMethod {
     public static MinMax getMinMax(int[] arr,int low,int high){
         MinMax result = new MinMax();
         if(low==high){
