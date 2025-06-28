@@ -1,4 +1,5 @@
 /*
+https://leetcode.com/problems/triangle-judgement/description/
 610. Triangle Judgement
 Report for every three line segments whether they can form a triangle.
 Return the result table in any order.
