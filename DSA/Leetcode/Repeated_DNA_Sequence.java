@@ -20,15 +20,29 @@ import java.util.HashSet;
 import java.util.List;
 
 public class Repeated_DNA_Sequence {
+
     public List<String> findRepeatedDnaSequences(String s) {
         HashSet<String> seen = new HashSet<>();
         HashSet<String> repeated = new HashSet<>();
-        for(int i=0;i<s.length()-9;i++){
-            String sequence = s.substring(i,i+10);
-            if(!seen.add(sequence)){
+        for (int i = 0; i < s.length() - 9; i++) {
+            String sequence = s.substring(i, i + 10);
+            if (!seen.add(sequence)) {
                 repeated.add(sequence);
             }
         }
         return new ArrayList<>(repeated);
-    }    
+    }
+
+    public static void main(String[] args) {
+        Repeated_DNA_Sequence obj = new Repeated_DNA_Sequence();
+
+        String dna = "AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT";
+        List<String> repeatedSequences = obj.findRepeatedDnaSequences(dna);
+
+        System.out.println("Repeated DNA sequences of length 10:");
+        for (String seq : repeatedSequences) {
+            System.out.println(seq);
+        }
+    }
 }
+
